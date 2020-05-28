@@ -1,6 +1,5 @@
-import React, { Component } from 'react'
-import ReactDOM from 'react-dom'
-import App from './App'
-import './index.css'
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Car from './App.js';
 
-ReactDOM.render(<App />, document.getElementById('root'))
+ReactDOM.render(<Car />, document.getElementById('root'));
